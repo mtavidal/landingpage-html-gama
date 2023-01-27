@@ -1,0 +1,393 @@
+* {
+    margin: 0px;
+}
+
+#cabecalho {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(/backgroud/escovas.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Patrick Hand SC', cursive;
+    box-shadow: 1px 1px 20px 1px rgb(0, 0, 0);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    padding: 1vmax;
+    margin-left: 30px;
+    font-family: 'Patrick Hand SC', cursive;
+    color: rgb(255, 255, 255);
+    background-color: #d3203b;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+.listamenu {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.listamenu img {
+    width: 50px;
+    margin-left: 18px;
+    width: 50px;
+}
+
+.listamenu img:hover {
+    opacity: 0.4;
+    
+}
+
+#video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    height: 700px;
+    padding: 20px;
+    padding-bottom: 40px;
+    background-color: #d3203b;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+#textovideo {
+    color: #f0e9e5;
+    font-family: 'Patrick Hand SC', cursive;
+    padding-bottom: 30px;
+    font-size: 45px;
+    text-align: center;
+}
+
+#videoinicial {
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    width: 80%;
+    height: 80%;
+    
+}
+
+
+#vantagens {
+    background-image: url(/backgroud/escovas.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    padding: 30px;
+}
+
+.listavantagens {
+    background-color: #f0e9e5;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 30px;
+    border: 2px solid #d3203b;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+.listavantagens li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Patrick Hand SC', cursive;
+
+}
+
+.listavantagens li img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    width: 200px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    border-radius: 100%;
+    
+}
+
+#tituloDepoimentos, #titulocta, #politicas {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+    background-color:#d3203b;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+    color:#f7f7f7;
+}
+
+#depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: url(/backgroud/escovas.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.depo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0e9e5;
+    padding: 30px;
+    margin: 20px;
+    border: 2px solid #d3203b;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Bad Script', cursive;
+}
+
+.aspas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.asp1 {
+   align-self:flex-start;
+}
+
+.asp2 {
+    align-self:flex-end;
+ }
+
+.aspas p {
+    max-width: 200px;
+}
+
+.depo h4 {
+    color: #d3203b;
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 28px;
+    margin-top: 10px;
+    margin-right: 25px;
+    align-self: flex-end;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-image: url(/backgroud/escovas.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#formulario {
+    background-color: #f0e9e5;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid #d3203b;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+#titulocampos {
+    color: #aa3c3c;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:  'Patrick Hand SC', cursive;
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+#titulocampos span {
+   text-decoration: underline;
+}
+
+#campos {
+    display: grid;
+    justify-content: center;
+    justify-items:flex-start;
+    font-family:  'Jaldi', sans-serif;;
+    font-size: 25px;
+    margin: 5px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+input {
+    width: 500px;
+    font-family:  'Jaldi', sans-serif;
+    font-size: 18px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #aa3c3c;
+    outline: none;
+    color: rgb(85, 72, 72);
+    
+}
+
+input:focus{
+    border-bottom: 2px solid #411111;
+    box-shadow: 1px rgb(109, 7, 27);
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #f0e9e5 inset;
+}
+
+button {
+    justify-self: center;
+    width: 70%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight: bolder;
+    color: #aa3c3c;
+    background-color:  #fbf2ed;
+    border: 2px solid #aa3c3c;;
+    box-shadow: 1px 1px 10px 1px rgb(169, 136, 136);
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(169, 136, 136);;
+}
+
+
+#dev {
+    text-align: center;
+    font-family:  'Jaldi', sans-serif;
+    font-size: 25px;
+    padding: 20px;
+    background-image: url(/backgroud/escovas.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.devolucao {
+    background-color: #f0e9e5;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #d3203b;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+}
+
+.devolucao a {
+    color: #d3203b;
+}
+
+.devolucao a:hover {
+    color: #5e121d;
+}
+
+@media only screen and (max-width:480px){
+    header {
+        font-size: 22px;
+        padding: 1vmax;
+        margin-left: 15px;
+        font-family: 'Patrick Hand SC', cursive;
+        border-radius: 15px;
+    }
+
+    #cabecalho{
+        height: 24vmax;
+    }
+
+    .listamenu img {
+        width: 30px;
+        
+    }
+    
+    #video{
+        height: 300px;
+        padding: 0px;
+        padding-bottom: 40px;
+        background-color: #d3203b;
+        box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+    }
+
+    #textovideo {
+        padding-bottom: 20px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .listavantagens {
+        padding: 20px;
+    }
+
+    .listavantagens li {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        margin-left: 0px;
+        width: 250px;
+        
+    }
+    
+    .listavantagens li img {
+        margin: 5px;
+        margin-right: 15px;
+        width: 100px;
+    }    
+
+    .depo p {
+        font-size: 20px;
+    }
+
+
+    #formulario {
+        padding: 10px;
+        margin: 3px;
+    }
+    
+    #campos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        font-size: 18px;
+    }
+    .devolucao {
+        font-size: 15px;
+        padding: 10px;
+        margin: 0px;
+        
+    }
+
+    input {
+        width: 250px;
+        font-size: 18px;
+        
+    }
+
+    #tituloDepoimentos, #titulocta, #politicas {
+        padding: 20px;
+        font-size: 20px;
+    }
+    #titulocampos {
+        font-size: 23px;
+    }
+    
+
+}
