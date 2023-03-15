@@ -2,6 +2,8 @@
 
 ### Repositório do projeto landing page da semana 01 do Gama XP49.
 
+- link: https://mtavidal.github.io/landingpage-html-gama/ 
+
 #### Nesse projeto foram utilizados HTLM5 e CSS.
 
 ##### A landing page contém:
