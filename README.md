@@ -14,3 +14,9 @@
 - Depoimentos dos clientes.
 - CTA.
 - Política de devolução.
+
+#### Repositório atualizado na 13 semana do Gama XP49.
+##### Adiciona as libs:
+- toastr (https://github.com/CodeSeven/toastr)
+- animate.css (https://animate.style)
+- date-fns (https://date-fns.org/docs/Getting-Started)
